@@ -6,16 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Comunit</title>
     <meta name="description" content="Boletim dos trabalhadores das tecnologias de informação do PCP no Porto." />
-    <link rel="shortcut icon" href="https://picocss.com/favicon.ico" />
+    <link rel="shortcut icon" href="favicon.png" />
 
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+
 
     <style>
         :root {
-            --primary: #fdd835;
+            --primary: #35fd71;
             --spacing-company: 3rem;
             --font-weight: 400;
             --border-radius: 0;
+            --font-family: Inter, sans-serif;
+            --font-feature-settings: 'liga'1, 'calt'1;
+            /* fix for Chrome */
+        }
+
+        @supports (font-variation-settings: normal) {
+            :root {
+                font-family: InterVariable, sans-serif;
+            }
         }
 
         [data-theme="dark"] {
@@ -24,6 +36,7 @@
             --primary-focus: rgba(216, 27, 27, 0.25);
             --primary-inverse: #FFF;
         }
+
 
         /* Typography */
         h2,
@@ -40,8 +53,28 @@
         .hero {
             background-color: #1b222c;
             /* background-image: url("comunit_simple_log.svg"); */
-            background-position: center;
-            background-size: cover;
+            /* background-position: center;
+            background-size: cover; */
+        }
+
+        .hero header {
+            padding-bottom: 7px;
+        }
+
+        .logo {
+            /* background-color: #09da3d; */
+            display: flex;
+            margin: 0;
+
+        }
+
+        .logo h1 {
+            margin: 0;
+        }
+
+        .logo img {
+            /* margin: 10px; */
+            padding-right: 10px;
         }
 
         header {
@@ -88,28 +121,26 @@
 </head>
 
 <body>
-    <!-- Hero -->
     <div class="hero" data-theme="dark">
         <nav class="container-fluid">
         </nav>
+
         <header class="container">
-            <hgroup>
-                <div>
-                    <img src="comunit_logo.svg" alt="comunit_logo" />
-                    <h1>Comunit</h1>
-                </div>
-                <small>
-                    <i> Boletim dos Trabalhadores das Tecnologias de Informação e Comunicaçáo
-                        <br />
-                        <!-- ↳  -->
-                        <a href="http:\\pcp.pt">PCP</a>
-                        , <a href="http:\\porto.pcp.pt">Porto</a>
-                    </i>
-                </small>
-            </hgroup>
+            <!-- <hgroup> -->
+            <div class="logo">
+                <img src="comunit_logo.svg" alt="comunit_logo" />
+                <h1>Comunit</h1>
+            </div>
+            <small>
+                <i> Boletim dos Trabalhadores das Tecnologias de Informação e Comunicaçáo
+                    <!-- <br /> -->
+                    • <a href="http:\\porto.pcp.pt">Porto</a>
+                    • <a href="http:\\pcp.pt">PCP</a>
+                </i>
+            </small>
+            <!-- </hgroup> -->
         </header>
     </div>
-    <!-- ./ Hero -->
 
     <!-- Main -->
     <main class="container">
@@ -227,7 +258,7 @@
                         required />
                     <input type="email" id="email" name="email" placeholder="Email" aria-label="Email address"
                         required />
-                    <button type="submit" onclick="event.preventDefault()" class="secondary">Enviar</button>
+                    <button type="submit" onclick="event.preventDefault()" class="primary">Enviar</button>
 
                 </form>
             </article>
