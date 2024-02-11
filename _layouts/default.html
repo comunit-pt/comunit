@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+{% include head.html %}
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    {% include nav.html %}
+
+
+
+<!-- Image to hack wechat -->
+<!-- <img src="/img/apple-touch-icon.png" width="0" height="0" /> -->
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+<!-- <body> -->
+    <div class="hero" data-theme="dark">
+        <nav class="container-fluid">
+        </nav>
+
+        <header class="container">
+            <!-- <hgroup> -->
+            <div class="logo">
+                <img src="../assets/img/comunit_logo.svg" alt="comunit_logo" />
+                <h1>Comunit</h1>
+            </div>
+            <small>
+                <i> Boletim dos Trabalhadores das Tecnologias de Informação e Comunicação
+                    <!-- <br /> -->
+                    • <a href="http:\\porto.pcp.pt">Porto</a>
+                    • <a href="http:\\pcp.pt">PCP</a>
+                </i>
+            </small>
+            <!-- </hgroup> -->
+        </header>
+    </div>
+
+   
+    <!-- Footer -->
+
+    <!-- ./ Footer -->
+
+    {{ content }}
+
+    {% include footer.html %}
+    <!-- Minimal theme switcher -->
+    <!-- <script src="js/minimal-theme-switcher.js"></script> -->
+</body>
+
+</html>

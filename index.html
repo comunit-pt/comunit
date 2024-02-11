@@ -1,282 +1,88 @@
-<!DOCTYPE html>
-<html lang="pt">
+---
+layout: default
+description: "Thinking will not overcome fear but action will."
+---
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Comunit</title>
-    <meta name="description" content="Boletim dos trabalhadores das tecnologias de informação do PCP no Porto." />
-    <link rel="shortcut icon" href="favicon.png" />
+<main class="container">
+    <div class="grid">
+        <section>
+            <h2>Manifesto</h2>
+            <p>
+                O avanço da tecnologia implicou o surgimento de novas profissões que, por vezes, parecem isoladas
+                dos trabalhos mais "tradicionais" e nem sempre são compreendidas. Tais profissões, contudo, têm
+                desafios e demandas laborais próprias que mostram a necessidade de uma luta organizada para que os
+                direitos dos trabalhadores deste setor não sejam deixados para trás na corrida do avanço
+                tecnológico.
+            </p>
+            <p>
+                Denunciamos a extorsão das consultoras de recrutamento, que retêm uma parte substancial do salário
+                dos trabalhadores — que poderiam e deveriam receber integralmente a remuneração pelo seu trabalho
+                caso a empresa assumisse as responsabilidades.
+            </p>
+            <p>
+                Denunciamos a precariedade propagandeada como "empreendedorismo", na qual trabalhadores são
+                contratados a recibos verdes, embora tenham os mesmos horários, responsabilidades e exigências que
+                trabalhadores efetivos, apenas com menos segurança no seu vínculo laboral e menos garantias.
+            </p>
+            <p>
+                Denunciamos as plataformas digitais que licitam o valor do nosso trabalho como num leilão, onde o
+                trabalho "por peça" é apresentado como uma ideia de liberdade, quando na verdade significa falta de
+                compromisso por parte do empregador e falta de direitos para o trabalhador.
+            </p>
+            <p>
+                Denunciamos a terceirização e a subcontratação, práticas generalizadas no setor das tecnologias, que
+                criam um poço sem fundo de exploração, no qual todos trabalham e contribuem igualmente, mas nem
+                todos têm os mesmos direitos e remuneração.
+            </p>
+            <p>
+                Denunciamos a carga mental que transforma o turno de 8 horas num trabalho "24/7", pois estar sempre
+                atento às notificações, comentários e redes da empresa faz com que nunca seja possível "desligar"
+                efetivamente do trabalho e manter o seu espaço pessoal. Com mais tecnologia, em vez de trabalharmos
+                menos horas,
+                trabalhamos mais.
+            </p>
+            <p>
+                Denunciamos os despedimentos em massa, glamorizados e justificados nas redes sociais, muitas vezes
+                motivados não por déficit orçamental das empresas, mas sim por uma estratégia de excesso de
+                contratações para manipular o mercado e evitar que "talentos" sejam contratados pela concorrência —
+                tal como a criação
+                de um exército industrial de reserva. São os nossos empregos, as nossas vidas, as nossas famílias —
+                não
+                somos marionetes para o plano de negócios corporativo!
+            </p>
+            <p>
+                Denunciamos a exploração disfarçada sob o eufemismo de "vestir a camisola". Pedir pizza à meia-noite
+                não compensa as horas extras de trabalho; aquele "team building" forçado que ocupa o teu tempo
+                pessoal e
+                o teu fim de semana sem remuneração e serve apenas para promover a empresa nas redes sociais; porque
+                aquela consola na parede, que ninguém usa, não compensa a falta de direitos caso decidas ter filhos;
+                porque
+                as iniciativas de "diversidade" e "sustentabilidade" não passam de fachada para manter os
+                trabalhadores
+                ocupados com a imagem e publicidade da empresa, afastando-nos da luta organizada que realmente
+                defende os nossos interesses e leva a cabo a transformação política.
+            </p>
+            <p>
+                Denunciamos que em Portugal existem profissionais ao melhor nível do mundo, mas mal pagos ou a baixo
+                preço quando comparado com outros países.
+            </p>
+            <p>
 
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+                <blockquote>
+                    Por tudo isto, é urgente e necessário lutar por melhores condições de trabalho no setor das
+                    Comunicações, Tecnologia e Marketing.
+            </p>
+            <p>
+                Se te identificas com o que aqui se diz, não estás sozinho.
+            </p>
+            <p>
 
 
-    <style>
-        :root {
-            --primary: #35fd71;
-            --spacing-company: 3rem;
-            --font-weight: 400;
-            --border-radius: 0;
-            --font-family: Inter, sans-serif;
-            --font-feature-settings: 'liga'1, 'calt'1;
-            /* fix for Chrome */
-        }
-
-        @supports (font-variation-settings: normal) {
-            :root {
-                font-family: InterVariable, sans-serif;
-            }
-        }
-
-        [data-theme="dark"] {
-            --primary: #921a1a;
-            --primary-hover: #dd0a0a;
-            --primary-focus: rgba(216, 27, 27, 0.25);
-            --primary-inverse: #FFF;
-        }
-
-
-        /* Typography */
-        h2,
-        h3,
-        hgroup> :last-child {
-            font-weight: 200;
-        }
-
-        small {
-            color: var(--muted-color);
-        }
-
-        /* Header */
-        .hero {
-            background-color: #1b222c;
-            /* background-image: url("comunit_simple_log.svg"); */
-            /* background-position: center;
-            background-size: cover; */
-        }
-
-        .hero header {
-            padding-bottom: 7px;
-        }
-
-        .logo {
-            /* background-color: #09da3d; */
-            display: flex;
-            margin: 0;
-
-        }
-
-        .logo h1 {
-            margin: 0;
-        }
-
-        .logo img {
-            /* margin: 10px; */
-            padding-right: 10px;
-        }
-
-        header {
-            padding: var(--spacing-company) 0;
-        }
-
-        header hgroup> :last-child {
-            color: var(--h3-color);
-        }
-
-        header hgroup {
-            margin-bottom: var(--spacing-company);
-        }
-
-        /* Nav */
-        summary[role="link"].contrast:is([aria-current], :hover, :active, :focus) {
-            background-color: transparent;
-            color: var(--contrast-hover);
-        }
-
-        /* Main */
-        @media (min-width: 992px) {
-            main .grid {
-                grid-column-gap: var(--spacing-company);
-                grid-template-columns: auto 25%;
-            }
-        }
-
-        form.grid {
-            grid-row-gap: 0;
-        }
-
-        /* Aside nav */
-        aside img {
-            margin-bottom: 0.25rem;
-        }
-
-        aside p {
-            margin-bottom: var(--spacing-company);
-            line-height: 1.25;
-        }
-    </style>
-
-</head>
-
-<body>
-    <div class="hero" data-theme="dark">
-        <nav class="container-fluid">
-        </nav>
-
-        <header class="container">
-            <!-- <hgroup> -->
-            <div class="logo">
-                <img src="comunit_logo.svg" alt="comunit_logo" />
-                <h1>Comunit</h1>
-            </div>
-            <small>
-                <i> Boletim dos Trabalhadores das Tecnologias de Informação e Comunicaçáo
-                    <!-- <br /> -->
-                    • <a href="http:\\porto.pcp.pt">Porto</a>
-                    • <a href="http:\\pcp.pt">PCP</a>
-                </i>
-            </small>
-            <!-- </hgroup> -->
-        </header>
+                <footer>
+                    <cite>- Contamos contigo? Junta a tua à nossa voz!</cite>
+                </footer>
+                </blockquote>
+            </p>
+        </section>
     </div>
-
-    <!-- Main -->
-    <main class="container">
-        <div class="grid">
-            <section>
-                <h2>Manifesto</h2>
-                <p>
-                    O avanço da tecnologia implicou o surgimento de novas profissões que, por vezes, parecem isoladas
-                    dos trabalhos mais "tradicionais" e nem sempre são compreendidas. Tais profissões, contudo, têm
-                    desafios e demandas laborais próprias que mostram a necessidade de uma luta organizada para que os
-                    direitos dos trabalhadores deste setor não sejam deixados para trás na corrida do avanço
-                    tecnológico.
-                </p>
-                <p>
-                    Denunciamos a extorsão das consultoras de recrutamento, que retêm uma parte substancial do salário
-                    dos trabalhadores — que poderiam e deveriam receber integralmente a remuneração pelo seu trabalho
-                    caso a empresa assumisse as responsabilidades.
-                </p>
-                <p>
-                    Denunciamos a precariedade propagandeada como "empreendedorismo", na qual trabalhadores são
-                    contratados a recibos verdes, embora tenham os mesmos horários, responsabilidades e exigências que
-                    trabalhadores efetivos, apenas com menos segurança no seu vínculo laboral e menos garantias.
-                </p>
-                <p>
-                    Denunciamos as plataformas digitais que licitam o valor do nosso trabalho como num leilão, onde o
-                    trabalho "por peça" é apresentado como uma ideia de liberdade, quando na verdade significa falta de
-                    compromisso por parte do empregador e falta de direitos para o trabalhador.
-                </p>
-                <p>
-                    Denunciamos a terceirização e a subcontratação, práticas generalizadas no setor das tecnologias, que
-                    criam um poço sem fundo de exploração, no qual todos trabalham e contribuem igualmente, mas nem
-                    todos têm os mesmos direitos e remuneração.
-                </p>
-                <p>
-                    Denunciamos a carga mental que transforma o turno de 8 horas num trabalho "24/7", pois estar sempre
-                    atento às notificações, comentários e redes da empresa faz com que nunca seja possível "desligar"
-                    efetivamente do trabalho e manter o seu espaço pessoal. Com mais tecnologia, em vez de trabalharmos
-                    menos horas,
-                    trabalhamos mais.
-                </p>
-                <p>
-                    Denunciamos os despedimentos em massa, glamorizados e justificados nas redes sociais, muitas vezes
-                    motivados não por déficit orçamental das empresas, mas sim por uma estratégia de excesso de
-                    contratações para manipular o mercado e evitar que "talentos" sejam contratados pela concorrência —
-                    tal como a criação
-                    de um exército industrial de reserva. São os nossos empregos, as nossas vidas, as nossas famílias —
-                    não
-                    somos marionetes para o plano de negócios corporativo!
-                </p>
-                <p>
-                    Denunciamos a exploração disfarçada sob o eufemismo de "vestir a camisola". Pedir pizza à meia-noite
-                    não compensa as horas extras de trabalho; aquele "team building" forçado que ocupa o teu tempo
-                    pessoal e
-                    o teu fim de semana sem remuneração e serve apenas para promover a empresa nas redes sociais; porque
-                    aquela consola na parede, que ninguém usa, não compensa a falta de direitos caso decidas ter filhos;
-                    porque
-                    as iniciativas de "diversidade" e "sustentabilidade" não passam de fachada para manter os
-                    trabalhadores
-                    ocupados com a imagem e publicidade da empresa, afastando-nos da luta organizada que realmente
-                    defende os nossos interesses e leva a cabo a transformação política.
-                </p>
-                <p>
-                    Denunciamos que em Portugal existem profissionais ao melhor nível do mundo, mas mal pagos ou a baixo
-                    preço quando comparado com outros países.
-                </p>
-                <p>
-
-                    <blockquote>
-                        Por tudo isto, é urgente e necessário lutar por melhores condições de trabalho no setor das
-                        Comunicações, Tecnologia e Marketing.
-                </p>
-                <p>
-                    Se te identificas com o que aqui se diz, não estás sozinho.
-                </p>
-                <p>
-
-
-                    <footer>
-                        <cite>- Contamos contigo? Junta a tua à nossa voz!</cite>
-                    </footer>
-                    </blockquote>
-                </p>
-            </section>
-
-            <aside>
-                <p>
-                    <a href="#" onclick="event.preventDefault()">Quem somos?</a><br />
-                    <small> Somos trabalhadores do setor das comunicações e tecnologias, desde programadores designers,
-                        redatores e engenheiros de software.
-                        O Comunit é o nosso espaço para partilha de informação, reflexão e prática sobre temas e áreas
-                        de trabalho que abrangem o universo de profissões relacionadas com as Tecnologias da Comunicação
-                        e
-                        Informação.
-                        <br />
-                        Esta publicação digital é da responsabilidade do subsector das Tecnologias da Comunicação e
-                        Informação do Sector Intelectual do Porto do PCP.
-                    </small>
-                </p>
-
-            </aside>
-        </div>
-    </main>
-    <!-- ./ Main -->
-
-    <!-- Subscribe -->
-    <section aria-label="Subscribe example">
-        <div class="container">
-            <article>
-                <hgroup>
-                    <h2>Mais informações?</h2>
-                    <p>Deixa-nos o teu contacto.</p>
-                </hgroup>
-                <form class="grid">
-                    <input type="text" id="firstname" name="firstname" placeholder="Nome" aria-label="First name"
-                        required />
-                    <input type="email" id="email" name="email" placeholder="Email" aria-label="Email address"
-                        required />
-                    <button type="submit" onclick="event.preventDefault()" class="primary">Enviar</button>
-
-                </form>
-            </article>
-        </div>
-    </section>
-    <!-- ./ Subscribe -->
-
-    <!-- Footer -->
-    <footer class="container">
-        <small>
-            Construido pelos militantes do <a href="https://pcp.pt">PCP</a> • <a href="https://porto.pcp.pt">Porto</a>
-
-        </small>
-    </footer>
-    <!-- ./ Footer -->
-
-    <!-- Minimal theme switcher -->
-    <script src="js/minimal-theme-switcher.js"></script>
-</body>
-
-</html>
+</main>
