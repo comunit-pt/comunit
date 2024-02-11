@@ -1,0 +1,36 @@
+---
+layout: page
+description: "Feed"
+---
+
+<main class="container">
+    <div class="grid">
+
+
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <section>
+                    <article>
+                        <a href="{{ post.url }}">
+                            <h2>{{ post.title }}</h2>
+                            <img src={{ post.asset_path }}
+                                alt="card" width="100%">
+                            {{post.author}}
+                            {{ page.asset_path }}
+                            {{post.img}}
+                            {{post.date}}
+                        </a>
+                    </article>
+                </section>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+</main>
+
+<main class="container">
+
+    I'm a card!
+</main>
