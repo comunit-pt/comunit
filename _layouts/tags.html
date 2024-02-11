@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+<main class="container">
+    <div class="grid">
+
+        <section>
+            <div class="post">
+                <h1>Tag: {{ page.tag }}</h1>
+                <ul>
+                    {% for post in site.tags[page.tag] %}
+
+                    <a href="{{ post.url }}">
+                        <article>
+                            <h2>{{ post.title }}</h2>
+                            <img src={{post.asset_path}} alt="card" width="100%">
+                            <footer>
+                                {{post.author}}
+                                ({{ post.date | date_to_string }})
+                            </footer>
+                        </article>
+
+                        {% endfor %}
+                </ul>
+            </div>
+        </section>
+
+    </div>
+</main>

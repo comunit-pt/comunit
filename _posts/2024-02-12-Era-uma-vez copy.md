@@ -1,12 +1,13 @@
 ---
 layout:     post
-title:      Next cenas
+title:      Era uma vez
 subtitle:   cenas ocoiasj
 date:       2024-02-11
 author:     VP
 header-img: /assets/img/script_agitprop.png
 asset_path: /assets/img/script_agitprop.png
 catalog: true
+tag-name: geral
 tags:
     - geral
 ---

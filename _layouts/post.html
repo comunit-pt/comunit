@@ -3,42 +3,55 @@ layout: page
 ---
 <!-- Post Content -->
 <article>
-    <div class="container">
-        <div class="row">
 
-            <!-- Post Container -->
-            <div class="
+    <!-- Post Container -->
+    <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
 
-                
-                <img src=  "{{baseurl }}{{ page.header-img}}"/>
-                {{ content }}
+        <header>
+            <h1> {{page.title}} </h1>
+            <small> {{page.date  | date: "%-d %B %Y"}} </small>
+            <img src="{{baseurl }}{{ page.header-img}}" />
 
-                <hr style="visibility: hidden;">
+            <span>[
+                {% for tag in page.tags %}
+                  {% capture tag_name %}{{ tag }}{% endcapture %}
+                  <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                {% endfor %}
+              ]</span>
+    
+        </header>
 
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
-                            data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
-                            Previous<br>
-                            <span>{{page.previous.title}}</span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
-                            data-placement="top" title="{{page.next.title}}">
-                            Next<br>
-                            <span>{{page.next.title}}</span>
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-            </div>
-        </div>
+
+        {{ content }}
+
+ 
+        <hr style="visibility: hidden;">
+        <footer>
+
+            <ul class="pager">
+                {% if page.previous.url %}
+                <li class="previous">
+                    <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                        data-placement="top" title="{{page.previous.title}}">
+                        Previous<br>
+                        <span>{{page.previous.title}}</span>
+                    </a>
+                </li>
+                {% endif %}
+                {% if page.next.url %}
+                <li class="next">
+                    <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                        data-placement="top" title="{{page.next.title}}">
+                        Next<br>
+                        <span>{{page.next.title}}</span>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </footer>
+    </div>
     </div>
 </article>
