@@ -1,0 +1,25 @@
+---
+layout: page
+description: "Feed"
+---
+
+<main class="container">
+    <div class="grid">
+
+        <section>
+            {% for post in site.posts %}
+            <a href="{{ post.url }}">
+                <article>
+                    <h2>{{ post.title }}</h2>
+                    <img src= {{post.asset_path}} alt="card" width="100%">
+                    <footer>
+                        {{post.author}}
+                        {{post.date}}
+                    </footer>
+                </article>
+            </a>
+            {% endfor %}
+        </section>
+
+    </div>
+</main>
