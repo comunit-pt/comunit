@@ -5,17 +5,12 @@
                 <h2>Mais informações?</h2>
                 <p>Deixa-nos o teu contacto.</p>
             </hgroup>
-
-
-
-            <form action="https://formsubmit.co/vascostmr@gmail.com" method="POST">
-                <input type="hidden" name="_next" value="{{baseurl}}/ajc.html">
-                <input type="hidden" name="_captcha" value="false">
+            <form class="grid">
                 <input type="text" id="firstname" name="firstname" placeholder="Nome" aria-label="First name"
                     required />
                 <input type="email" id="email" name="email" placeholder="Email" aria-label="Email address" required />
+                <button type="submit" onclick="event.preventDefault()" class="primary">Enviar</button>
 
-                <button type="submit" class="primary">Enviar</button>
             </form>
         </article>
     </div>

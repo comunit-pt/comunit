@@ -3,19 +3,18 @@
 
 {% include head.html %}
 
-<!-- hack iOS CSS :active style -->
-
 <body ontouchstart="">
+    <!-- <div class="flex-wrapper"> -->
 
-    {% include nav.html %}
+        {% include nav.html %}
 
+        {{ content }}
 
+        {% include subscribe.html %}
 
-    {{ content }}
-
-    {% include subscribe.html %}
-
-    {% include footer.html %}
+        {% include footer.html %}
+        
+    <!-- </div> -->
 </body>
 
 </html>
