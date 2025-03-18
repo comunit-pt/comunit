@@ -8,14 +8,15 @@ asset_path: /assets/img/evento-algoritmo.jpg
 catalog: true
 tags:
     - sector
+    - evento
 ---
 No próximo dia 14 de março às 18h30, o Sector Intelectual do Porto
-do PCP vai promover um debate sobre o impacto da crescente adoção 
-de ferramentas de automação e "Inteligência Artificial" na vida e 
+do PCP vai promover um debate sobre o impacto da crescente adoção
+de ferramentas de automação e "Inteligência Artificial" na vida e
 no trabalho.
 
-A iniciativa, que decorrerá na livraria UNICEPE, contará com a 
-presença de Rogério Reis (professor universitário) e de João 
+A iniciativa, que decorrerá na livraria UNICEPE, contará com a
+presença de Rogério Reis (professor universitário) e de João
 Ferreira (advogado).
 
 🗓️ 14 de Março 18h30

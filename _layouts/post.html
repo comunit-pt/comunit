@@ -12,7 +12,7 @@ layout: page
 
         <header style="padding-top: 0px; padding-bottom: 0px; valign:top;">
             <h1 style="padding-bottom: 1px; margin-bottom:0;"> {{page.title}} </h1>
-            <small style="margin-top: 0"> {{page.date  | date: "%-d %B %Y"}} </small>
+            <small style="margin-top: 0"> {{page.date  | date: "%Y-%m-%d"}} </small>
             <img src="{{baseurl }}{{ page.header-img}}" />
 
             <span>[
@@ -36,7 +36,7 @@ layout: page
                 <li class="previous">
                     <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
                         data-placement="top" title="{{page.previous.title}}">
-                        Previous<br>
+                        Anterior<br>
                         <span>{{page.previous.title}}</span>
                     </a>
                 </li>
@@ -45,7 +45,7 @@ layout: page
                 <li class="next">
                     <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
                         data-placement="top" title="{{page.next.title}}">
-                        Next<br>
+                        Próximo<br>
                         <span>{{page.next.title}}</span>
                     </a>
                 </li>
