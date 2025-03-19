@@ -54,9 +54,9 @@ realmente defende os nossos interesses e leva a cabo a transformação política
 Denunciamos que em Portugal existem profissionais ao melhor nível do mundo, mas mal pagos ou a baixo
 preço quando comparado com outros países.
 
-*Por tudo isto, é urgente e necessário lutar por melhores condições de trabalho no setor das
-Comunicações, Tecnologia e Marketing*.
+    Por tudo isto, é urgente e necessário lutar por melhores condições de trabalho no setor das
+    Comunicações, Tecnologia e Marketing*.
 
-*Se te identificas com o que aqui se diz, não estás sozinho.*
+    Se te identificas com o que aqui se diz, não estás sozinho.*
 
-*- Contamos contigo? Junta a tua à nossa voz!*
+    - Contamos contigo? Junta a tua à nossa voz!*
