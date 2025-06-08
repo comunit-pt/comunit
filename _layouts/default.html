@@ -1,20 +1,36 @@
+{% comment %}
+	Este é o nosso layout principal. É a "raíz" comum aos nossos documentos HTML.
+	Contém declarações de metadata, título, links para stylesheets, etc.
+	Todos os outros layouts devem herdar deste layout .
+{% endcomment %}
+
 <!DOCTYPE html>
 <html lang="pt">
-
-{% include head.html %}
-
-<body ontouchstart="">
-    <!-- <div class="flex-wrapper"> -->
-
-        {% include nav.html %}
-
-        {{ content }}
-
-        {% include subscribe.html %}
-
-        {% include footer.html %}
-        
-    <!-- </div> -->
-</body>
-
+	<head>
+	  <title>Comunit</title>
+	
+	  <meta name="description" content="Boletim dos trabalhadores das tecnologias de informação do PCP no Porto." />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	  <meta charset="utf-8" />
+	
+	  <link rel="shortcut icon" href="{{ baseurl }}/assets/img/favicon.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	
+		<link
+		  rel="stylesheet"
+		  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+		/>
+	
+		<link rel="stylesheet" href="/assets/css/styles.css" />
+	
+	  {% if site.tags != "" %}
+	  {% include collecttags.html %}
+	  {% endif %}
+	</head>
+	
+	<body ontouchstart="">
+		{{ content }}
+	</body>
 </html>

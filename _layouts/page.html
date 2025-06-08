@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html lang="pt">
+---
+layout: default
+---
 
-{% include head.html %}
+{% comment %}
+	Este é o layout utilizado pelas páginas do blog.
+  Este layout contém o header e o footer do site, que são apresentados em todas as páginas.
+{% endcomment %}
 
-<body ontouchstart="">
+{% include header.html %}
 
-    {% include nav.html %}
-    
-    {{ content }}
+<main class="container page-content">
+	{{ content }}
+</main>
 
-    {% include footer.html %}
-</body>
-
-</html>
+{% include footer.html %}

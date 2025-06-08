@@ -1,5 +1,4 @@
 ---
-layout:     post
 title:      Vamos a ver
 subtitle:   cenas ocoiasj
 date:       2024-02-11

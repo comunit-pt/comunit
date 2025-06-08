@@ -1,5 +1,4 @@
 ---
-layout:     post
 title:      Era uma vez
 subtitle:   cenas ocoiasj
 date:       2024-02-11

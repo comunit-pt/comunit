@@ -1,10 +1,9 @@
 ---
-layout:     post
 title:      "Manifesto"
 date:       2024-02-09
 author:     TIC
-header-img: /assets/img/comunit_logo_red.jpg
 asset_path: /assets/img/comunit_logo.svg
+asset_alt: Logótipo do Comunit
 catalog: true
 tags:
     - sector
@@ -53,10 +52,3 @@ realmente defende os nossos interesses e leva a cabo a transformação política
 
 Denunciamos que em Portugal existem profissionais ao melhor nível do mundo, mas mal pagos ou a baixo
 preço quando comparado com outros países.
-
-    Por tudo isto, é urgente e necessário lutar por melhores condições de trabalho no setor das
-    Comunicações, Tecnologia e Marketing*.
-
-    Se te identificas com o que aqui se diz, não estás sozinho.*
-
-    - Contamos contigo? Junta a tua à nossa voz!*

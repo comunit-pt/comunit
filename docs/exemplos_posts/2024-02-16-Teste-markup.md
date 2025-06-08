@@ -1,5 +1,4 @@
 ---
-layout:     post
 title:      Teste-markup
 subtitle:   cenas ocoiasj
 date:       2024-02-11

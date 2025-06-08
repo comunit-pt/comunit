@@ -1,0 +1,241 @@
+/**
+* Estilos para o site do comunit.
+*
+* Estamos a usar a framework picocss (docs: https://picocss.com/docs).
+* Todas as variáveis com prefixo "--pico-" são variáveis disponibilizadas pela framework,
+* as quais são possíveis de fazer "override".
+* 
+* TODO: De momento, não existe distinção entre "light" e "dark" theme.
+*/
+
+/* Light color scheme */
+[data-theme="light"],
+:root:not([data-theme="dark"]),
+:host(:not([data-theme="dark"])) {
+  --pico-color: #ffffff;
+  --pico-h1-color: #ffffff;
+  --pico-h2-color: #ffffff;
+  --pico-h3-color: #ffffff;
+  --pico-primary: #ffffff;
+  --pico-primary-inverse: #b20002;
+  --pico-primary-background: #ffffff;
+  --pico-primary-hover: #ffffff;
+  --pico-primary-hover-background: #ffffff;
+  --pico-primary-focus: #e8b2ae;
+  --pico-muted-color: #ffbfc0;
+  --pico-background-color: #b20002;
+  --pico-card-background-color: unset;
+  --pico-card-sectioning-background-color: unset;
+  --pico-card-box-shadow: unset;
+}
+
+/* Dark color scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --pico-color: #ffffff;
+    --pico-h1-color: #ffffff;
+    --pico-h2-color: #ffffff;
+    --pico-h3-color: #ffffff;
+    --pico-primary: #ffffff;
+    --pico-primary-inverse: #b20002;
+    --pico-primary-background: #ffffff;
+    --pico-primary-hover: #ffffff;
+    --pico-primary-hover-background: #ffffff;
+    --pico-primary-focus: #e8b2ae;
+    --pico-muted-color: #ffbfc0;
+    --pico-background-color: #b20002;
+    --pico-card-background-color: unset;
+    --pico-card-sectioning-background-color: unset;
+    --pico-card-box-shadow: unset;
+  }
+}
+
+/* Dark color scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+  --pico-color: #ffffff;
+  --pico-h1-color: #ffffff;
+  --pico-h2-color: #ffffff;
+  --pico-h3-color: #ffffff;
+  --pico-primary: #ffffff;
+  --pico-primary-inverse: #b20002;
+  --pico-primary-background: #ffffff;
+  --pico-primary-hover: #ffffff;
+  --pico-primary-hover-background: #ffffff;
+  --pico-primary-focus: #e8b2ae;
+  --pico-muted-color: #ffbfc0;
+  --pico-background-color: #b20002;
+  --pico-card-background-color: unset;
+  --pico-card-sectioning-background-color: unset;
+  --pico-card-box-shadow: unset;
+}
+
+:root {
+  --pico-font-family: Lato, sans-serif;
+}
+
+h1,
+h2 {
+  --pico-font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+button,
+[role="button"] {
+  --pico-font-weight: 700;
+}
+
+@media (min-width: 1536px) {
+  .container {
+    /* a max-width por omissão, para ecrãs muito largos, é grande demais */
+    max-width: 1200px;
+  }
+}
+
+/**********************/
+/* Layout das páginas */
+/**********************/
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-header hgroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+
+  & > :last-child {
+    color: unset;
+  }
+
+  p {
+    font-weight: 700;
+  }
+}
+
+.page-header .comunit-logo {
+  height: 6rem;
+  margin-top: 2rem;
+}
+
+.page-footer {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  height: 13vh;
+  min-height: 3.5rem;
+  width: 100%;
+  background-color: rgb(from var(--pico-background-color) r g b / 60%);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.page-footer .footer-container {
+  position: relative;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-footer .line {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  border-top: 1px solid rgba(202, 82, 79, 1);
+}
+
+.page-footer .pcp-logo {
+  max-height: 2rem;
+}
+
+@media (min-width: 576px) {
+  .page-footer .pcp-logo {
+    margin-left: var(--pico-block-spacing-horizontal);
+  }
+}
+
+.page-content {
+  /**
+	 * padding no conteúdo da página, para compensar o footer
+	 * caso o utilizador dê scroll até ao final da página.
+	 */
+  padding-bottom: 13vh;
+}
+
+/********************/
+/* Posts do Comunit */
+/********************/
+
+.post {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-header {
+  border: unset;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-header time {
+  color: var(--pico-muted-color);
+}
+
+.post-header a {
+  color: var(--pico-muted-color);
+  font-weight: 400;
+}
+
+.post-header a:hover {
+  color: var(--pico-color);
+}
+
+.post .post-image {
+  align-self: center;
+  /**
+	 * Estas dimensões são um pouco arbitrárias, mas o intuito é tentar controlar o tamanho das imagens,
+   * para que não fiquem nem demasiado pequenas, nem que ocupem demasiado espaço no ecrã.
+   * Para esse efeito, estou a usar a altura do viewport (vh) e a largura do container (percentagem).
+   **/
+  min-width: 30%;
+  max-height: 33vh;
+}
+
+@media screen and (min-width: 1024px) {
+  .post .post-image {
+    /* Permitir que a imagem seja maior em ecrãs largos */
+    max-height: 60vh;
+  }
+}
+
+/************/
+/* Contacto */
+/************/
+
+.contact {
+  margin-top: var(--pico-block-spacing-vertical);
+}
+
+.contact .contact-separator {
+  color: var(--pico-muted-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contact .contact-button {
+  --pico-font-weight: 700;
+  width: unset;
+}

@@ -1,25 +1,14 @@
 ---
 layout: page
-description: "Feed"
 ---
 
-<main class="container">
-    <div class="grid">
+{% comment %}
+	"Homepage" do site. Contem a lista de artigos do Comunit.
+{% endcomment %}
 
-        <section style="margin-top: 0px; margin-bottom: 0px;">
-            {% for post in site.posts %}
-            <a href="{{ post.url }}">
-                <article style="margin-top: 0px; margin-bottom: 0px;">
-                    <h2>{{ post.title }}</h2>
-                    <img src= {{post.asset_path}} alt="card" width="100%">
-                    <footer>
-                        {{post.author}}
-                        {{post.date  | date: "%Y-%m-%d"}}
-                    </footer>
-                </article>
-            </a>
-            {% endfor %}
-        </section>
-
-    </div>
-</main>
+{% for post in site.posts %}
+	{% include post.html
+			post_content=post.content post_date=post.date
+			post_title=post.title post_tags=post.tags
+			post_asset_path=post.asset_path post_asset_alt=post.asset_alt %}
+{% endfor %}

@@ -1,0 +1,21 @@
+<article class="post">
+	<header class="post-header">
+		<div>
+			<time datetime="{{ post.date }}">
+				{{ include.post_date  | date: "%Y-%m-%d" }}
+			</time>
+		</div>
+		<div>
+			{% for tag in include.post_tags %}
+				<a href="/tag/{{ tag }}">[ {{ tag }} ]</a>
+			{% endfor %}
+		</div>
+	</header>
+	<h2>{{ include.post_title }}</h2>
+	
+	{{ include.post_content }}
+
+	<img class="post-image" alt="{{ include.post_asset_alt }}" src="{{ baseurl }}{{ include.post_asset_path }}" />
+
+	{% include contact.html %}
+</article>

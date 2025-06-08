@@ -1,5 +1,4 @@
 ---
-layout:     post
 title:      Hello world!
 subtitle:   Olá mundo
 date:       2024-02-11
