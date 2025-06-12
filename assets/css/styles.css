@@ -203,6 +203,23 @@ button,
   color: var(--pico-color);
 }
 
+.post .share-anchor {
+  position: relative;
+}
+
+.post .share-anchor::before {
+  position: absolute;
+  left: -1.5rem;
+  opacity: 0;
+  content: "#";
+  z-index: 1;
+  font-weight: 400;
+}
+
+.post .share-anchor:hover::before {
+  opacity: 1;
+}
+
 .post .post-image {
   align-self: center;
   /**

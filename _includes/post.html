@@ -11,7 +11,12 @@
 			{% endfor %}
 		</div>
 	</header>
-	<h2>{{ include.post_title }}</h2>
+
+	<h2 id="{{ include.post_url }}">
+		<a class="share-anchor" href="#{{ include.post_url }}">
+			{{ include.post_title }}
+		</a>
+	</h2>
 	
 	{{ include.post_content }}
 
