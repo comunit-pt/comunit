@@ -203,6 +203,32 @@ button,
   color: var(--pico-color);
 }
 
+.post .heading-container {
+  position: relative;
+  margin-bottom: var(--pico-typography-spacing-vertical);
+
+  > h2 {
+    margin: unset;
+  }
+}
+
+.post .share-anchor {
+  position: absolute;
+  z-index: 1;
+  top: -0.15rem;
+  left: -1.5rem;
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: transparent;
+  cursor: pointer;
+}
+
+.post .share-anchor:hover {
+  color: var(--pico-color);
+}
+
 .post .post-image {
   align-self: center;
   /**
