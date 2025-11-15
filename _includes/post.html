@@ -20,7 +20,10 @@
 	
 	{{ include.post_content }}
 
-	<img class="post-image" alt="{{ include.post_asset_alt }}" src="{{ baseurl }}{{ include.post_asset_path }}" />
+	{% for asset in include.post_assets %}
+		<img class="post-image" alt="{{ asset.alt }}" src="{{ baseurl }}{{ asset.path }}" />
+	{% endfor %}
+
 
 	{% include contact.html %}
 </article>
