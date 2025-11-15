@@ -2,9 +2,9 @@
 title:      Intervenção do subsector das TIC na XIII Assembleia de Organização do Sector Intelectual do Porto do PCP
 date:       2025-07-20
 author:     JT
-asset_path: /assets/img/xiii-assembleia-sintel.jpeg
-asset_alt: Cartaz da XIII Assembleia do Sector Intelectual do Porto
-catalog: true
+assets:
+    - path: /assets/img/xiii-assembleia-sintel.jpeg
+      alt: Cartaz da XIII Assembleia do Sector Intelectual do Porto
 tags:
     - sector
 ---

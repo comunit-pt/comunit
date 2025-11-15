@@ -2,7 +2,6 @@
 title:      O limbo dos trabalhadores de comunicação e marketing em Portugal
 date:       2025-10-18
 author:     AR
-catalog: true
 tags:
     - sector
 ---

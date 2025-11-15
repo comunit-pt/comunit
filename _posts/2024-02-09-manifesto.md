@@ -2,9 +2,9 @@
 title:      "Manifesto"
 date:       2024-02-09
 author:     TIC
-asset_path: /assets/img/comunit_logo.svg
-asset_alt: Logótipo do Comunit
-catalog: true
+assets:
+    - path: /assets/img/comunit_logo.svg
+      alt: Logótipo do Comunit
 tags:
     - sector
 ---

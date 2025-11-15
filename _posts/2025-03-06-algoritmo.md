@@ -2,9 +2,9 @@
 title:      "Algoritmo: O novo patrão"
 date:       2025-03-06
 author:     RP
-asset_path: /assets/img/evento-algoritmo.jpg
-asset_alt: "Cartaz de apresentação do debate Algoritmo: O novo patrão?"
-catalog: true
+assets:
+    - path: /assets/img/evento-algoritmo.jpg
+      alt: "Cartaz de apresentação do debate Algoritmo: O novo patrão?"
 tags:
     - sector
     - evento
