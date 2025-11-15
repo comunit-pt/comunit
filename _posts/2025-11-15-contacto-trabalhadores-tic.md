@@ -2,11 +2,15 @@
 title:      "Em contacto com os trabalhadores das TIC: contra o pacote laboral"
 date:       2025-11-15
 author:     EV
-asset_path: /assets/img/contacto-trabalhadores-tic-11-2025.jpeg
-asset_alt:  Um camarada do PCP distribuíndo folhetos
-catalog: true
 tags:
     - sector
+assets:
+    - path: /assets/img/contacto-trabalhadores-tic-11-2025.jpeg
+      alt: Um camarada do PCP distribuíndo folhetos
+    - path: /assets/img/folheto-pacote-laboral-p1.jpg
+      alt: Folheto sobre o pacote laboral, página 1
+    - path: /assets/img/folheto-pacote-laboral-p2.jpg
+      alt: Folheto sobre o pacote laboral, página 2
 ---
 
 Nos passados 29 e 30 de Outubro, e 5 de Novembro, camaradas do sector das TIC estiveram
