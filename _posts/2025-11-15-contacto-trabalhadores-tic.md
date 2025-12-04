@@ -6,7 +6,7 @@ tags:
     - sector
 assets:
     - path: /assets/img/contacto-trabalhadores-tic-11-2025.jpeg
-      alt: Um camarada do PCP distribuíndo folhetos
+      alt: Camarada do PCP distribuíndo folhetos
     - path: /assets/img/folheto-pacote-laboral-p1.jpg
       alt: Folheto sobre o pacote laboral, página 1
     - path: /assets/img/folheto-pacote-laboral-p2.jpg
