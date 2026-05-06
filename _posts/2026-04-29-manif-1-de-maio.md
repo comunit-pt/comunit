@@ -9,7 +9,7 @@ tags:
     - sector
 ---
 
-O subsector das TIC do PCP, apela à participação na manifestação do Dia do trabalhador deste sábado.
+O subsector das TIC do PCP apela à participação na manifestação do Dia do trabalhador deste sábado.
 
 Junta-te a nós para celebrar o Dia do Trabalhador e lutar pelos nossos direitos!
 
