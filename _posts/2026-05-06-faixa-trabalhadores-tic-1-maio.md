@@ -16,5 +16,5 @@ comunicação contra o Pacote Laboral.
 Apelamos a todos os trabalhadores do sector para participarem na greve convocada pela CGTP
 no próximo dia 3 de junho!
 
-Vamos à luta! É preciso dizer não dizer NÃO ao Pacote Laboral e SIM a um trabalho digno e
+Vamos à luta! É preciso dizer dizer NÃO ao Pacote Laboral e SIM a um trabalho digno e
 com direitos!
