@@ -9,12 +9,13 @@ tags:
     - sector
 ---
 
-O subsector das TIC do PCP esteve presente na manifestação do Dia do Trabalhador no Porto
-junto do sindicato CESP numa faixa dos trabalhadores das tecnologias da informação e
-comunicação contra o Pacote Laboral.
+Os trabalhadores das TIC estiveram presentes na manifestação do 1º de Maio
+no Porto, integrados no sindicato CESP, com uma faixa dos trabalhadores das
+tecnologias da informação e comunicação contra o Pacote Laboral.
 
-Apelamos a todos os trabalhadores do sector para participarem na greve convocada pela CGTP
-no próximo dia 3 de junho!
+Desde o subsector das TIC do PCP apelamos a todos os trabalhadores do sector
+que se organizem, rejeitem o Pacote Laboral, exijam aumentos de salários e
+adiram à greve geral convocada pela CGTP no próximo dia 3 de junho!
 
-Vamos à luta! É preciso dizer NÃO ao Pacote Laboral e SIM a um trabalho digno e
-com direitos!
+Vamos à luta! É preciso dizer NÃO ao Pacote Laboral e SIM a um trabalho digno
+e com direitos!
