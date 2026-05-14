@@ -1,6 +1,6 @@
 ---
 title:      Faixa dos Trabalhadores das TIC no 1º de Maio no Porto
-date:       2026-04-29
+date:       2026-05-06
 author:     RP
 assets:
     - path: /assets/img/faixa-trabalhadores-tic-1-maio-2026.jpeg
