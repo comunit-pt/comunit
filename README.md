@@ -1,14 +1,13 @@
-# Comunit 
-
-
+# Comunit
 
 ## Teste local
+
 ```
 bundle exec jekyll serve
 ```
 
+## History
 
-#### History
 ```
 jekyll new comunit  --blank
 bundle init
