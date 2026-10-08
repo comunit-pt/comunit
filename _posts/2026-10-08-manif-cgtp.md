@@ -6,7 +6,7 @@ assets:
   - path: /assets/img/cartaz-manif-cgtp-1710.jpeg
     alt: Cartaz Manifestação CGTP 17 Outubro 2026
 tags:
-    - manif
+    - sector
 ---
 
 O subsector das TIC do PCP apela à participação na manifestação convocada
