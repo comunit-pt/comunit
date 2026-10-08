@@ -7,6 +7,7 @@ assets:
     alt: Trabalhadores das TIC na Greve Geral
 tags:
     - sector
+    - luta
 ---
 
 Os trabalhadores das Tecnologias de Informação e Comunicação (TIC) mobilizaram-se para a jornada de luta da Greve Geral

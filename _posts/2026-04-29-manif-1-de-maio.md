@@ -6,7 +6,7 @@ assets:
     - path: /assets/img/cartaz-manif-1-maio.jpg
       alt: 'Cartaz sobre a manifestação do 1° de Maio'
 tags:
-    - sector
+    - luta
 ---
 
 O subsector das TIC do PCP apela à participação na manifestação do Dia do trabalhador deste sábado.

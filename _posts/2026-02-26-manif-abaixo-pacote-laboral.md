@@ -6,7 +6,7 @@ assets:
     - path: /assets/img/manif-abaixo-pacote-laboral.jpg
       alt: 'Cartaz sobre a manifestação "Abaixo o Pacote Laboral"'
 tags:
-    - sector
+    - luta
 ---
 
 O subsector das TIC do PCP, apela à participação na manifestação deste sábado contra o
