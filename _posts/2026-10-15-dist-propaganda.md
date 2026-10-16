@@ -1,7 +1,7 @@
 ---
 title:      "Em contacto com os trabalhadores das TIC: Romper com Injustiças"
 date:       2026-10-15
-author:     IP
+author:     DR
 assets:
   - path: /assets/img/dist-propaganda-20261015.jpeg
     alt: Distribuição de Propaganda em Empresas - Outubro 2026
