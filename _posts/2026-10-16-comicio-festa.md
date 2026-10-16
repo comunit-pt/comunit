@@ -3,7 +3,7 @@ title:      "Comício-Festa"
 date:       2026-10-16
 author:     IP
 assets:
-  - path: /assets/img/cartaz-manif-cgtp-1710.jpeg
+  - path: /assets/img/cartaz-comicio-festa-2510.jpeg
     alt: Cartaz Comício-Festa 25 Outubro 2026
 tags:
     - sector
