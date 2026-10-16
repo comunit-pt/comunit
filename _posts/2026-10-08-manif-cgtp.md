@@ -20,6 +20,7 @@ Estaremos presentes com uma faixa das TIC.
 Junta-te a nós e faz-te ouvir!
 
 🗓️ Sábado, 17 de outubro, 10h30
+
 📍 Porto, Praça da Batalha
 
 Divulga, fala com os teus colegas, amigos e familiares.
