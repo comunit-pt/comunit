@@ -1,5 +1,5 @@
 ---
-title:      "Faixa dos Trabalhadores das TIC na Manifestação Nacional da CGTP Contra o Aumento do Custo de Vida"
+title:      "Reestruturação = despedimento colectivo?"
 date:       2026-10-20
 author:     JS
 assets:
