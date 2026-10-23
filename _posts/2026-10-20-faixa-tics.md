@@ -1,7 +1,7 @@
 ---
 title:      "Faixa dos Trabalhadores das TIC na Manifestação Nacional da CGTP Contra o Aumento do Custo de Vida"
 date:       2026-10-20
-author:     IP
+author:     RP
 assets:
   - path: /assets/img/faixa-trabalhadores-tic-17-Outubro-2026.jpeg
     alt: Faixa dos Trabalhadores das TIC na Manifestação Nacional da CGTP Contra o Aumento do Custo de Vida 17 Outubro 2026
